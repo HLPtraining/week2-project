@@ -59,7 +59,7 @@ public class ShopTest {
 		size++;
 		assertEquals(size, shop.getShopSize());
 		
-		shop.addMagazine("The Lake", author4, publisher2);
+		shop.addElectronicBook("Trailers", author6, date);
 		size++;
 		assertEquals(size, shop.getShopSize());
 	}
